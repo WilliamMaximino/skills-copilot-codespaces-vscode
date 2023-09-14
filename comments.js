@@ -1,4 +1,4 @@
-//create web server
+// Create web server for comment
 const http = require('http');
 const port = 3000; // Porta em que o servidor vai escutar
 
@@ -20,4 +20,5 @@ server.listen(port, (err) => {
 
   console.log(`Servidor está escutando em http://localhost:${port}`);
 });
+
 
